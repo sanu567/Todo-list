@@ -1,0 +1,59 @@
+.home{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.create input{
+  width: 300px;
+  padding: 10px;
+  border-bottom: 2px solid;
+  border-radius: 50px;
+  outline: none;
+}
+.create button{
+  width: 80px;
+  height: 40px;
+  border-radius: 50px;
+  color: aliceblue;
+  background: black;
+  margin: 5px;
+  cursor: pointer;
+}
+.works{
+  background: black;
+  color: aliceblue;
+  width: 410px;
+  height: 26px;
+  border-radius: 50px;
+  margin-top: 4px;
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+}
+.works .check{
+  width: 20px;
+  height: 20px;
+  border: 2px solid;
+  border-radius: 100px;
+  cursor: pointer;
+}
+.works .delete{
+  outline: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.line_through{
+  text-decoration: line-through;
+}
+@media only screen and (max-width: 500px) {
+.create button{
+  margin-left: 130px;
+}
+.create input{
+  margin-left: 20px;
+}
+
+ .works {
+  width: 300px;
+}
+}
